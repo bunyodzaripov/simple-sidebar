@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    max-width: 250px;
+    height: 100vh;
+    background-color: #18212A;
+    padding: 24px 16px;
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+}
+
+.sidebar__logo{
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.bi-code{
+    margin-right: 10px;
+}
+
+.bi-list{
+    margin-left: 10px;
+}
+
+.sidebar__search{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    padding: 0 12px;
+    background-color: #28364A;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.sidebar__search input{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sidebar__search input::placeholder{
+    color: #fff;
+}
+
+.sidebar__list{
+    flex-grow: 1;
+    list-style-type: none;
+}
+
+.list__item a{
+    display: block;
+    padding: 10px 12px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.list__item a:hover{
+    background-color: #fff;
+    color: #18212A;
+}
+
+.list__item a i{
+    margin-right: 10px;
+}
+
+.sidebar__account{
+   display: flex;
+   align-items: center;
+   gap: 0 10px;
+}
+
+.account__avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.account__info{
+    flex-grow: 1;
+}
+
+.sidebar__account button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
